@@ -21,15 +21,15 @@ import homeRoute from './modules/home'
  */
 
 const routes = [
-  {
-    path: '/login',
-    name: 'login',
-    component: () => import('@/views/login.vue'),
-    meta: {
-      title: '登录',
-      isShowMenu: false,
-    },
-  },
+  // {
+  //   path: '/login',
+  //   name: 'login',
+  //   component: () => import('@/views/login.vue'),
+  //   meta: {
+  //     title: '登录',
+  //     isShowMenu: false,
+  //   },
+  // },
   {
     path: '/',
     name: 'Layout',
