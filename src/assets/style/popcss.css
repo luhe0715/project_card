@@ -1,0 +1,10 @@
+/* 系统软件列表-》里程碑的tooltip框样式 */
+.el-popper.teshu.el-popper.is-light {   
+    background-color: rgba(255,245,242,0.9);
+    /* color: #f56c6c; */
+    border: 1px dashed #f56c6c;
+}
+.teshu.el-popper.is-light .el-popper__arrow::before {
+    background-color: rgba(255,245,242,0.9);
+    border: 1px solid #f56c6c;
+}

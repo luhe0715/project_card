@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+      "baseUrl": ".",
+      "paths": { // 文件配置别名，src下的路径可以用@
+          "@/*": [
+              "src/*"
+          ]
+      }
+  },
+  "include": [
+      "src/**/*"
+  ],
+  "exclude": [
+      "node_modules",
+      "pdc-pidim",
+      "dist"
+  ]
+}
