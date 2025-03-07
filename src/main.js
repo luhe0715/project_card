@@ -12,7 +12,7 @@ import element, { ElMessage, ElMessageBox } from 'element-plus' //引入message�
 import 'element-plus/dist/index.css'
 
 /**引入入口文件 */
-import '@/permission'
+// import '@/permission'
 
 /**引入常用的依赖 */
 import Cookies from 'js-cookie'
